@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivencia Baires</title>
+    <link rel="stylesheet" href="vivencia.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="vivencia1.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio" class="hero">
+        <h1>INFRAESTRUCTURA Y DESARROLLO DE SOFTWARE</h1>
+        <p>Más de 15 años en el mercado realizando proyectos poniendo a disposición de nuestros clientes las mejores soluciones tecnológicas de una manera simple, rápida, eficaz y asequible; que les permita alcanzar el máximo desarrollo y crecimiento de sus negocios.</p>
+    </section>
+    
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>Nuestras acciones se sustentan en una inquebrantable ética de trabajo, responsabilidad y dedicación. Llevamos adelante los proyectos de nuestros clientes de manera transparente utilizando metodologías ágiles que brinden un marco adecuado de interacción entre las partes.
+        </p>
+    </section>
+    
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Desarrollo de Software</li>
+            <li>Aplicaciones Móviles</li>
+            <li>Marketing Digital</li>
+            <li>Diseño de Stands</li>
+        </ul>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Algunos de nuestros desarrollos tecnológicos destacados.</p>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p><strong>contacto@vivenciabaires.com</strong></p>
+        
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2025 Vivencia Baires</p>
+    </footer>
+</body>
+</html>
+
